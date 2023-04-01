@@ -1,0 +1,290 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16160 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Projects/A tale of Jerusalem - Project/CSTHackathon/Before the Storm - A Tale of Jerusalem
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50423
+Successfully changed project path to: D:/Projects/A tale of Jerusalem - Project/CSTHackathon/Before the Storm - A Tale of Jerusalem
+D:/Projects/A tale of Jerusalem - Project/CSTHackathon/Before the Storm - A Tale of Jerusalem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22432] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 988363834 [EditorId] 988363834 [Version] 1048832 [Id] WindowsEditor(7,Mihnea_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22432] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 988363834 [EditorId] 988363834 [Version] 1048832 [Id] WindowsEditor(7,Mihnea_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 115.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/A tale of Jerusalem - Project/CSTHackathon/Before the Storm - A Tale of Jerusalem/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010098 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\A tale of Jerusalem - Project\CSTHackathon\Before the Storm - A Tale of Jerusalem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\A tale of Jerusalem - Project\CSTHackathon\Before the Storm - A Tale of Jerusalem\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.7 KB). Loaded Objects now: 3521.
+Memory consumption went from 120.6 MB to 120.5 MB.
+Total: 13.074900 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.386500 ms MarkObjects: 12.003900 ms  DeleteObjects: 0.285200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15859.003963 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_grass 3.mat
+  artifactKey: Guid(2430436ff2b4aa0439ccce6c8e44fe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_grass 3.mat using Guid(2430436ff2b4aa0439ccce6c8e44fe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eac837fc5cba313da00baaa28bc3f4') in 0.454878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01 2.mat
+  artifactKey: Guid(3ec9d326be5f3854897c407b6a169a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01 2.mat using Guid(3ec9d326be5f3854897c407b6a169a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83955dfd24c12c0f3cc55b50f1450489') in 0.016108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_windows_light.mat
+  artifactKey: Guid(7e68f42225313f347bde7c583cc805d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_windows_light.mat using Guid(7e68f42225313f347bde7c583cc805d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9450fee7e998be5d01e16e3d32d6e1') in 0.140479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_emissive.mat
+  artifactKey: Guid(d0127a887ae5cf04b8d1757630dbcfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_emissive.mat using Guid(d0127a887ae5cf04b8d1757630dbcfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054c448dc371564d47e636371983767b') in 0.015625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_leaves.mat
+  artifactKey: Guid(1a9f15b9dbe73c645890c9cd7ae74f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_leaves.mat using Guid(1a9f15b9dbe73c645890c9cd7ae74f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649a4d7b138daf8e0a48f4d3e6a39c99') in 0.015448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_stoneblocks.mat
+  artifactKey: Guid(003fe56def2df6b4cabd2940a9c385b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_stoneblocks.mat using Guid(003fe56def2df6b4cabd2940a9c385b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d2ff57de4e3d566b592b495a9d21c6') in 0.012050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_banners.mat
+  artifactKey: Guid(d17b13d96c0c11c4ca679525651f0d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_banners.mat using Guid(d17b13d96c0c11c4ca679525651f0d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12cc51302b15e7be5832c93be39ca6') in 0.018868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_flowers.mat
+  artifactKey: Guid(742c8f16e337525409d1adf22d841212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_flowers.mat using Guid(742c8f16e337525409d1adf22d841212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d6ae2da45b5ee31ccabbfd17d43a40') in 0.011666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_red.mat
+  artifactKey: Guid(06fe6e5eaad9be74e833b5441dcfe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_red.mat using Guid(06fe6e5eaad9be74e833b5441dcfe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98188d3f91888b9d1584fabf21cfaa49') in 0.012825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_windows_dark.mat
+  artifactKey: Guid(417c4077ceddc4d4295cf4c570a6fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_windows_dark.mat using Guid(417c4077ceddc4d4295cf4c570a6fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a3c835d03bfa834d2f79eae8ab7c6') in 0.013155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_wood.mat
+  artifactKey: Guid(2b4c2519214509447a629c70be6927c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_wood.mat using Guid(2b4c2519214509447a629c70be6927c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebaa6660257729ad78250d1e203c0ae') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_grass.mat
+  artifactKey: Guid(f8691e098ef68344aae5353da6904166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_grass.mat using Guid(f8691e098ef68344aae5353da6904166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566ea9131a371a84c7d93cf0b07a41d5') in 0.016088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01.mat
+  artifactKey: Guid(3e35e882af2f3d3408ea394a8f8330d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01.mat using Guid(3e35e882af2f3d3408ea394a8f8330d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ae1bcf98e2574eeae68353621a3a89') in 0.017001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_snow.mat
+  artifactKey: Guid(2510d7c499f1f6542a5c6908603df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_snow.mat using Guid(2510d7c499f1f6542a5c6908603df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758fde28bbd15f937950b00627964453') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_stonewall.mat
+  artifactKey: Guid(b7c6707344a50da42ad75b1eeba93b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_stonewall.mat using Guid(b7c6707344a50da42ad75b1eeba93b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e1103a01c35d1ef593f112f3b4d301') in 0.012988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Kingdom Pack/CHARACTERS/SKT_character_base_medieval.fbx
+  artifactKey: Guid(d6a462c7725fa8840b469f7ae0ac1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/CHARACTERS/SKT_character_base_medieval.fbx using Guid(d6a462c7725fa8840b469f7ae0ac1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ccfe22a30eba450956568e105c81d0') in 0.084131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_tent_red.mat
+  artifactKey: Guid(9c7cdb621cff7fe45b1e19c8a8f82afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_tent_red.mat using Guid(9c7cdb621cff7fe45b1e19c8a8f82afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462d6d2ad73527d126d439130b2a55be') in 0.014583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_grass 2.mat
+  artifactKey: Guid(c55a3d09a9b89cb4094b88b2098b38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_grass 2.mat using Guid(c55a3d09a9b89cb4094b88b2098b38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c399f1d0bfb0dca56e92aeb851854345') in 0.012853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01 1.mat
+  artifactKey: Guid(6b082bbf82aaf4546aeb56a63099553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_roof_01 1.mat using Guid(6b082bbf82aaf4546aeb56a63099553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7657dd4fabde76a38c7ba335e8592450') in 0.014552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Kingdom Pack/MATERIALS/M_water.mat
+  artifactKey: Guid(ef84dd575cfebb64b8c6bb02a9c0e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Kingdom Pack/MATERIALS/M_water.mat using Guid(ef84dd575cfebb64b8c6bb02a9c0e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d768364a85607f67994a0377443641') in 0.015986 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
