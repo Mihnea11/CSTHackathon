@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class InteractableHuman : Interactable
-{
+{ 
     [SerializeField] 
     private GameObject dialoguePanel;
     [SerializeField] 
@@ -13,6 +13,10 @@ public class InteractableHuman : Interactable
     private GameObject dialogueLine;
     [SerializeField]
     private Button nextButton;
+    [SerializeField]
+    private bool isMinigame = false;
+    [SerializeField]
+    private GameObject minigameObject;
 
     private int currentLine = 0;
 
@@ -58,6 +62,17 @@ public class InteractableHuman : Interactable
             Cursor.visible = false;
 
             nextButton.onClick.RemoveAllListeners();
+
+            if(isMinigame == true)
+            {
+                StartMinigame();
+            }
         }
+    }
+
+    private void StartMinigame()
+    {
+        minigameObject.SetActive(true);
+
     }
 }

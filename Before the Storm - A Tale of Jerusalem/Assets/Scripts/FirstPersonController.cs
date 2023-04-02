@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
+    public static int Points { get; set; } = 0;
     public static bool CanMove { get; set; } = true;
     private bool IsSprinting => canSprint && !isCrouching && Input.GetKey(sprintKey);
     private bool ShouldJump => Input.GetKeyDown(jumpKey) && !isCrouching && characterController.isGrounded;

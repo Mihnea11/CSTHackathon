@@ -9,6 +9,10 @@ public class InteractableObject : Interactable
     private GameObject itemDescriptions;
     [SerializeField]
     private Button closeButton;
+    [SerializeField]
+    private GameObject pointsDisplay;
+    [SerializeField]
+    private int value; 
 
     private Transform describedItem;
 
@@ -31,6 +35,11 @@ public class InteractableObject : Interactable
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        FirstPersonController.Points += value;
+        value = 0;
+
+        pointsDisplay.GetComponent<Text>().text = "Points: " + FirstPersonController.Points.ToString();
     }
 
     public override void OnLoseFocus()
